@@ -13,10 +13,11 @@ and a player controler.
 
 
 ## gameplay gifs:
-[![gameplay 1](https://github.com/yoel123/yoel-godot-2d-or-3d-roguelike-procedural-dungeon-generation-template/screenshots/1.gif)]
-[![gameplay 2](https://github.com/yoel123/yoel-godot-2d-or-3d-roguelike-procedural-dungeon-generation-template/screenshots/2.gif)]
-[![gameplay 3](https://github.com/yoel123/yoel-godot-2d-or-3d-roguelike-procedural-dungeon-generation-template/screenshots/3.gif)]
-[![gameplay 4](https://github.com/yoel123/yoel-godot-2d-or-3d-roguelike-procedural-dungeon-generation-template/screenshots/4.gif)]
+[![gameplay 1](https://github.com/yoel123/yoel-godot-2d-or-3d-roguelike-procedural-dungeon-generation-template/blob/main/screenshots/1.gif)]
+[![gameplay 2](https://github.com/yoel123/yoel-godot-2d-or-3d-roguelike-procedural-dungeon-generation-template/blob/main/screenshots/2.gif)]
+[![gameplay 3](https://github.com/yoel123/yoel-godot-2d-or-3d-roguelike-procedural-dungeon-generation-template/blob/main/screenshots/3.gif)]
+[![gameplay 4](https://github.com/yoel123/yoel-godot-2d-or-3d-roguelike-procedural-dungeon-generation-template/blob/main/screenshots/4.gif)]
+
 
 ## features: 
 *2d:
