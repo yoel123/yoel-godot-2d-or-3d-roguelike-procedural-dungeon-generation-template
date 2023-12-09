@@ -1,0 +1,75 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scenes/ybtn.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scripts/start screen.gd" type="Script" id=2]
+
+[node name="start screen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -1.68182
+margin_right = -1.68182
+script = ExtResource( 2 )
+
+[node name="two_d_rouge" parent="." instance=ExtResource( 1 )]
+position = Vector2( 45.3874, 127.045 )
+ytxt = "2d rouglike"
+
+[node name="three_d_rouge" parent="." instance=ExtResource( 1 )]
+position = Vector2( 45.3874, 202.045 )
+ytxt = "3d rouglike"
+
+[node name="credits" parent="." instance=ExtResource( 1 )]
+position = Vector2( 47.6818, 50 )
+ytxt = "credits and how to use/play"
+
+[node name="credits_screen" type="Control" parent="."]
+visible = false
+margin_right = 1027.0
+margin_bottom = 600.0
+
+[node name="ColorRect" type="ColorRect" parent="credits_screen"]
+margin_right = 1019.0
+margin_bottom = 603.0
+color = Color( 0.243137, 0.243137, 0.243137, 1 )
+
+[node name="back" parent="credits_screen" instance=ExtResource( 1 )]
+position = Vector2( 386.682, 22 )
+ytxt = "back"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="credits_screen"]
+margin_left = 337.0
+margin_top = 123.0
+margin_right = 873.0
+margin_bottom = 537.0
+text = "controls:
+
+2d: 
+
+arrow keys to move
+zoom camera control: +  - (plus minus keys)
+
+3d:
+
+player move:
+arrow keys and mouse
+
+top down map control:
+\"w a s d\" keys
+zoom camera control: +  - (plus minus keys)
+
+
+credits:
+creator: yoel fisher
+2d tiles : 
+kenny : Micro Roguelike
+https://kenney-assets.itch.io/micro-roguelike
+
+you can use this projects code and settings (nodes etc)  any way you want
+to create your own game.
+
+
+
+
+
+
+"

@@ -1,0 +1,57 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://res/3drouge_tiles.tres" type="MeshLibrary" id=1]
+[ext_resource path="res://scripts/3drouglike.gd" type="Script" id=2]
+[ext_resource path="res://scripts/control_keyboard_Camera3D.gd" type="Script" id=3]
+[ext_resource path="res://scenes/ybtn.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/player3d.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/3d_follow_pet.tscn" type="PackedScene" id=6]
+
+[sub_resource type="NavigationMesh" id=1]
+
+[node name="3drouglike" type="Spatial"]
+script = ExtResource( 2 )
+
+[node name="Navigation" type="Navigation" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.71249, 0, 7.91049 )
+
+[node name="NavigationMeshInstance" type="NavigationMeshInstance" parent="Navigation"]
+navmesh = SubResource( 1 )
+
+[node name="GridMap" type="GridMap" parent="Navigation/NavigationMeshInstance"]
+mesh_library = ExtResource( 1 )
+use_in_baked_light = true
+cell_size = Vector3( 1, 1, 1 )
+__meta__ = {
+"_editor_clip_": 0
+}
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, -0.0201397, 0.999797, 0, -0.999797, -0.0201397, 0, 20.0922, 0 )
+script = ExtResource( 3 )
+
+[node name="Control" type="Control" parent="."]
+margin_left = -96.0
+margin_top = -4.0
+margin_right = -56.0
+margin_bottom = 36.0
+
+[node name="genrate" parent="Control" instance=ExtResource( 4 )]
+position = Vector2( 194, 42 )
+ytxt = "generate"
+
+[node name="two_d_view" parent="Control" instance=ExtResource( 4 )]
+position = Vector2( 507, 40 )
+ytxt = "2d_view"
+
+[node name="change_cam" parent="Control" instance=ExtResource( 4 )]
+position = Vector2( 783, 38 )
+ytxt = "change_cam"
+
+[node name="player3d" parent="." instance=ExtResource( 5 )]
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 25.196, 0 )
+
+[node name="follow_pet" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.681988, 1.64749 )
