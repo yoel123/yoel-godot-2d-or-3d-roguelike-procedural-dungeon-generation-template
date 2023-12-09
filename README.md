@@ -37,6 +37,8 @@ thers also a draw function for pathfinding nodes.
 
 -"follow pet": to demonstrate 3d pathfinding (for ai )
 
+-zoom in and out (wuth + - keys)
+
 also for both 3d and 2d check how i convert tilemap pos to screen pos.
 and check the scale for the 2d tiles and the 3d baked navmash (its baked at runtime and there is no guide online or any other example doing that).
 
