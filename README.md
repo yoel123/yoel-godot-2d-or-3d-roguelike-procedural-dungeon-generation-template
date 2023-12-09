@@ -13,10 +13,10 @@ and a player controler.
 
 
 ## gameplay gifs:
-[![gameplay 1](https://github.com/yoel123/godot-yoel-space-sim-game/blob/main/screenshots/1.gif)]
-[![gameplay 2](https://github.com/yoel123/godot-yoel-space-sim-game/blob/main/screenshots/2.gif)]
-[![gameplay 3](https://github.com/yoel123/godot-yoel-space-sim-game/blob/main/screenshots/3.gif)]
-[![gameplay 4](https://github.com/yoel123/godot-yoel-space-sim-game/blob/main/screenshots/4.gif)]
+[![gameplay 1](]https://github.com/yoel123/yoel-godot-2d-or-3d-roguelike-procedural-dungeon-generation-template/1.gif)]
+[![gameplay 2](]https://github.com/yoel123/yoel-godot-2d-or-3d-roguelike-procedural-dungeon-generation-template/2.gif)]
+[![gameplay 3](]https://github.com/yoel123/yoel-godot-2d-or-3d-roguelike-procedural-dungeon-generation-template/3.gif)]
+[![gameplay 4](]https://github.com/yoel123/yoel-godot-2d-or-3d-roguelike-procedural-dungeon-generation-template/4.gif)]
 
 ## features: 
 *2d:
@@ -46,6 +46,4 @@ i will have to do a video explaining this and/or using this template.
 contact form:
 
 https://yoelspacesim.wordpress.com/
-
-
 
